@@ -15,10 +15,10 @@
         <xpath expr="//button[(hasclass('o_form_button_save'))]" position="attributes">
             <attribute name="class">o_form_button_save btn btn-primary</attribute>
         </xpath>
-        <xpath expr="//button/i[(hasclass('fa-cloud-upload'))]" position="replace">
+        <xpath expr="//button/i[(hasclass('fa-cloud-upload'))]" position="after">
             <span>Save</span>
         </xpath>
-        <xpath expr="//button/i[(hasclass('fa-undo'))]" position="replace">
+        <xpath expr="//button/i[(hasclass('fa-undo'))]" position="after">
             <span>Discard</span>
         </xpath>
     </t>
